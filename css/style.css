@@ -9,12 +9,12 @@ body {
 }
 
 a {
-  color: tan;
+  color: white;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: tan;
+  color: rgb(219, 219, 219);
 }
 
 hr {
@@ -51,4 +51,9 @@ section {
 
 section h2 {
   font-size: 50px;
+}
+
+.jumbotron {
+    background-color: tan;
+    color: white;
 }
